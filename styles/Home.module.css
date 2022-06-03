@@ -1,6 +1,4 @@
-.container {
-  padding: 0 2rem;
-}
+
 
 .main {
   min-height: 100vh;
@@ -113,4 +111,166 @@
     width: 100%;
     flex-direction: column;
   }
+}
+.Subtitle{
+  text-align: center;
+  padding: 50px 0px;
+}
+.Subtitle h1{
+  color: #1a4789;
+  font-size: 32px;
+  line-height: 2;
+  font-weight: 700;
+}
+.Subtitle p{
+  color: #242424;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.6;
+
+}
+.textHead h2{
+color: #1a4789;
+font-size: 20px;
+font-weight: 700;
+}
+.textHead p{
+  color: #242424;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.6;
+}
+.betRule{
+  display: flex;
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+
+}
+.betRule:nth-child(2){
+  display: flex;
+  direction: rtl;
+}
+@media (min-width: 768px) {
+.margin34{
+  padding-left: 90px;
+}
+}
+ .cardTitle {
+color: #1a4789;
+font-size: 20px;
+font-weight: 700;
+}
+.cardYes{
+  background-color:#bfecab ;
+  text-transform: uppercase;
+  color: #242424 ;
+  padding: 7px 15px;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 14px;
+
+}
+.cardNo{
+  background-color:#ffabab;
+  text-transform: uppercase;
+  color: #242424 ;
+  padding: 7px 15px;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 14px;
+
+}
+.hje{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  align-content: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+.betNow{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.cardBg{
+  width: 353px;
+  padding: 13px;
+  border-radius: 10px;
+  border: none;
+  position: relative;
+}
+.felo23{
+  width: auto;
+}
+.text48{
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: 700;
+  font-size: 18px;
+}
+.hjw92{
+  background-color: #1a4789;
+  font-size: 15px;
+  color: #ffffff;
+  padding: 7px 20px;
+  position: absolute;
+  border-radius: 34px;
+  bottom: -68px;
+  width: fit-content;
+  margin: auto;
+  display: flex;
+  left: 0px;
+  right: 0px;
+  font-size: 14px;
+}
+@media (max-width: 700px){
+  .hje{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  align-content: center;
+  flex-wrap: nowrap;
+  flex-direction: column;
+}
+.Subtitle h1{
+font-size: 24px;
+line-height: 1.4;
+}
+.Subtitle p{
+font-size: 14px;
+font-weight: 500;
+line-height: 1.6;
+text-align: center;
+margin-top: 15px;
+}
+.textHead h2{
+  font-size: 16px;
+}
+.textHead p{
+  color: #242424;
+  font-size: 14px;
+}
+.betImg img{
+width: 24vw;
+}
+
+.text48{
+margin-bottom: 20px;
+font-weight: 700;
+font-size: 16px;
+}
+.cardTitle {
+  font-size: 16px;
+}
+.cardSubTitle{
+  font-size: 14px;
+}
+.hjw92{
+  position: initial;
+  font-size: 13px;
+}
 }

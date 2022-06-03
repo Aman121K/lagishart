@@ -1,9 +1,10 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900");
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: "Montserrat", sans-serif !important;
+    background-color:#f2efff !important;
 }
 
 a {
@@ -14,3 +15,127 @@ a {
 * {
   box-sizing: border-box;
 }
+
+  .nav-link{
+    color: #f2efff !important;
+    font-weight: 600;
+    margin-right: 25px;
+    display: flex !important;
+    align-items: center;
+  
+}
+@media (min-width: 992px){
+.navbar-expand-lg .navbar-collapse {
+    justify-content: flex-end;
+    height: 70px;
+}
+}
+.nav-link img{
+width: 30px;
+margin-right: 8px;
+
+}
+.nav-link svg{
+  width: 25px;
+  margin-right: 10px;
+  fill: #f2efff;
+
+  }
+  .nav-link:last-child svg{
+    width: 22px;
+    opacity: 0.8;
+    fill: #f2efff;
+    margin: 0px;
+  }
+  .nav-link:last-child{
+
+    margin: 0px;
+    }
+  .nextissue{
+    min-height:75vh;
+    margin-top: 80px;
+  }
+  .foot{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  grid-gap: 14px;
+  border-top: 1px solid #3c3c3c54;
+  padding-top: 35px;
+  padding-bottom: 15px;
+  margin-top: 45px;
+  }
+  .social{
+  width: 124px;
+  display: flex;
+  margin: auto;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.disclaimer{
+text-align: center;
+    font-size: 14px;
+}
+.jksw{
+  text-align: center;
+    font-size: 14px;
+}
+.navbar-dark .navbar-toggler {
+  /* color: rgba(255,255,255,.55); */
+  border-color: rgba(255,255,255,.1);
+  background: #1a4789;
+  outline: noe;
+  box-shadow: none;
+}
+.navbar-dark{
+background: #1a4789;
+position: fixed !important;
+width: 100%;
+z-index: 999;
+top: 0;
+}
+
+.middelCenter{
+  display: flex;
+  padding-top: 35vh;
+  }
+  .middelCenter .react-tabs__tab--selected{
+      background: #1a4789;
+      color: #f2efff;
+      padding: 1;
+      border-radius: 3px;
+      }
+      .middelCenter .react-tabs__tab p{
+        padding: 12px 0px;
+    cursor: pointer;
+    font-size: 14px;
+      }
+      @media (max-width: 700px){
+        .disclaimer {
+          font-size: 13px;
+        }
+        .nav-link{
+          color: #f2efff !important;
+          font-weight: 500;
+          margin-right: 0px;
+          display: flex !important;
+          align-items: center;
+          font-size: 14px;
+          margin-top: 8px;
+        
+        }
+        .nav-link:last-child{
+        
+          display: none !important;
+          }
+          .middelCenter {
+            display: flex;
+            padding-top: 9vh;
+            flex-direction: column;
+        }
+        .middelCenter .react-tabs__tab p {
+          padding: 4px 5px;
+          font-size: 13px;
+          margin: 0;
+      }
+      }

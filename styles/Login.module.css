@@ -1,0 +1,82 @@
+.form3{
+background: white;
+width: 500px;
+margin: auto;
+transform: translateY(15vh);
+padding: 20px;
+border-radius: 10px;
+display: flex;
+flex-direction: column;
+padding-bottom: 30px;
+align-items: center;
+grid-gap: 20px;
+}
+.form3 h1{
+font-size: 30px;
+font-weight: 800;
+color: #363636;
+text-transform: uppercase;
+letter-spacing: 4px;
+margin-bottom: 25px;
+margin-top: 30px;
+}
+.fb1{
+background: linear-gradient(to bottom, #1a4789 , #1a4789bf) !important;
+border: none;
+font-size: 14px;
+font-weight: 500;
+letter-spacing: 1px;
+width: 290px;
+box-shadow: 0px 2px 1px 1px #14376ade;
+padding: 15px;
+margin-bottom: 10px;
+}
+.phn{
+    background: linear-gradient(to bottom, #262626 , #262626b8) !important;
+    border: none;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    width: 290px;
+    box-shadow: 0px 2px 1px 1px #292929;
+    padding: 15px;
+    margin-bottom: 40px;
+    }
+    .fb1 svg{
+    width: 11px;
+    fill: white;
+    margin-right: 15px;
+    }
+    .phn svg{
+        width: 14px;
+        fill: white;
+        margin-right: 15px;
+        }
+        .form3 p{
+        font-size: 14px;
+    font-weight: 600;
+        }
+        .form3 p a{
+            color: #1a4789;
+        }
+        @media (max-width: 700px){
+            .form3{
+                background: white;
+                width: 100%;
+                transform: translateY(10vh);
+            }
+            .form3 h1{
+                font-size: 24px;
+            }
+            .phn{
+            font-size: 13px;
+            padding: 11px;
+            }
+            .fb1 {
+                font-size: 13px;
+                padding: 11px;
+                }
+                .form3 p{
+                    font-size: 13px;
+        }
+    }

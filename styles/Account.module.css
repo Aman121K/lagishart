@@ -1,0 +1,133 @@
+.App1 {
+    height: 100vh;
+  }
+  
+.tabs23{
+    width: 150px;
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    font-weight: 700;
+    color: #3c3c3c;
+    list-style: none;
+}
+.tabContent2{
+    width: 49vw;
+    background: white;
+    margin: auto;
+    border-radius: 6px;
+    min-height: 208px;
+    padding: 20px;
+
+}
+.userPic{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.userPic img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #1a47892e;
+
+    }
+    .panelContent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    }
+    .userPic h1{
+        font-size: 14px;
+        font-weight: 700;
+        color: #3c3c3c;
+        margin-top: 9px;
+        margin-bottom: 13px;
+    
+    }
+    .userPic button{
+    background: #1a4789 !important;
+    border: none;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-size: 12px;
+    color: #f2efff;
+    text-transform: capitalize;
+    }
+    .Followers{
+        display: flex;
+        flex-direction: column;
+    align-items: center;
+    }
+    .Followers b{
+    width: 100%;
+    float: left;
+    text-align: center;
+    }
+    .Followers span{
+
+    padding: 10px 0px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #2e2e2e;
+    text-align: center;
+    }
+    .Followers button{
+    background: #1a4789 !important;
+    border: none;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-size: 12px;
+    color: #f2efff;
+    text-transform: capitalize;
+    }
+    .userPic svg{
+    width: 11px;
+    fill: #f2efff;
+    margin-right: 7px;
+    }
+    .Followers svg{
+        width: 15px;
+        fill: #f2efff;
+        margin-right: 7px;
+        }
+        .panelContent{
+            position: relative;
+        }
+        .panelContent h2{
+            font-size: 14px;
+            margin: auto;
+            padding-top: 5rem;
+        }
+        .share{
+            position:absolute;
+            right: 0px;
+            top: 0px;
+        }
+        .share button{
+            background: transparent !important;
+            border:none;
+            padding: 0px;
+        }
+        .share button svg{
+            fill: #464646;
+            width: 20px;
+        }
+        @media (max-width: 700px){
+        .tabs23{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 29px;
+    }
+    .tabContent2{
+        width: 100%;
+    }
+    .panelContent{
+        display: flex;
+        flex-direction: column;
+    }
+}
